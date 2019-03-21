@@ -78,10 +78,10 @@ figlet -f slant "W A I T"|lolcat
 sleep 1
 pkg install python2
 pkg install git
+pip2 install reuests
 git clone https://github.com/rezadkim/dark-fb
 cd dark-fb
-pip2 install reuests
-pip2 install mechanize
+ls
 python2 dark.py
 fi
 
